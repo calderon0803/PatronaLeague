@@ -1,0 +1,33 @@
+/* Colors */
+$primary-color: #0198d5;
+$primary-color-light: #0198d5;
+$secondary-color: #012231;
+$secondary-color-light: #496975;
+$color-ui: #0198d5;
+$color-white: #ffffff;
+
+/* Base */
+$color-dark: #474747;
+$color-light: #ffffff;
+$color-light-grey: #767677;
+$color-med: #4d5f6c;
+
+/* Box Shadow */
+$box-shadow: 0 8px 8px rgb(50 50 71 / 8%);
+$box-shadow-hover: 0 8px 8px rgb(50 50 71 / 8%), 0 8px 16px rgb(50 50 71 / 6%);
+$box-shadow-scroll: inset 0 0 6px rgb(0 0 0 / 30%);
+
+/* Uses */
+$app-background-color: $color-light;
+
+/* Types */
+$info: #339fd7 !default;
+$error: #ea5354 !default;
+$warning: #f1d000 !default;
+$success: #11b896 !default;
+$types: (
+  success: $success,
+  info: $info,
+  warning: $warning,
+  error: $error,
+);

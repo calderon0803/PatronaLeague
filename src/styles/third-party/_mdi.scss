@@ -1,0 +1,5 @@
+@forward "@mdi/font/scss/materialdesignicons" with (
+  $mdi-font-path: "~@mdi/font/fonts"
+);
+
+@forward "@mdi/font/css/materialdesignicons.min.css";
